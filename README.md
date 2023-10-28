@@ -1,14 +1,23 @@
 # Excel to QR Code Generator
 
-This Python script allows you to generate QR code images from contact details stored in an Excel file. The generated QR code images are saved to a specified folder.
+This Python script allows you to generate QR Code images from contact details stored in an Excel file. The generated QR Code images are saved to a specified folder.
 
 ## Prerequisites
 
 Before running the script, ensure that you have Python and the required libraries installed. You can install the libraries using pip. Open your terminal or command prompt and run the following commands:
 
+1. Install pandas (for reading Excel files):
 ```bash
 pip install pandas
+```
+
+2. Install qrcode (for generating QR codes):
+```bash
 pip install qrcode
+```
+
+3. Install pillow (PIL) (for handling and saving QR code images):
+```bash
 pip install pillow
 ```
 
@@ -26,7 +35,7 @@ pip install pillow
 python generate_qr_code_images.py
 ```
 
-4. The script will process the Excel file and generate QR codes for each contact. The QR code images will be saved in the specified output folder.
+4. The script will process the Excel file and generate QR Codes for each contact. The QR Code images will be saved in the specified output folder.
 
 ## Example Excel Data
 
@@ -45,7 +54,7 @@ Olivia White olivia.white@example.com     +44 20 8901 2345
 Henry Hall   henry.hall@example.com       +44 20 9012 3456
 ```
 
-As mentioned in the "Usage" section, make sure to customize the data in your Excel file according to your needs. Ensure that the headers/fields in your Excel File match with the desired contents of each QR Code that is generated and all instances where the field is used to access rows within the pandas dataframe.
+As mentioned in the "Usage" section, make sure to customize the data in your Excel file according to your needs. Ensure that the headers/fields in your Excel File match with the desired contents of each QR Code that is generated and all instances where the field is used to access each row's value given the field name within the pandas dataframe.
 
 ## License
 
