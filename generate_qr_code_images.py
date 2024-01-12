@@ -34,6 +34,7 @@ def generate_qr_codes_from_excel(input_excel_file, output_folder):
     except Exception as e:
         print(f"Error processing the Excel file: {str(e)}")
 
+
 if __name__ == "__main__":
     # Change this to your input Excel file
     input_excel_file = r"C:\Users\YourUsername\Documents\contact_data.xlsx"
