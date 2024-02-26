@@ -4,11 +4,15 @@ Copyright (c) 2023-2024 Jishnu Teegala
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software with strict restrictions. Persons to whom the Software is
-furnished shall only be allowed to use and copy the Software for personal use,
-and shall have no rights to modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, unless Jishnu Teegala (the "Licensor")
-gives the requestor explicit writen permission to do so.
+in the Software with strict restrictions (see condition 1). Persons to whom
+the Software is furnished shall only be allowed to use, copy and modify the
+Software for private use, and shall have no rights to modify, merge, publish, 
+distribute, sublicense, and/or sell copies of the Software, unless Jishnu Teegala 
+(the "Licensor") gives the requestor explicit writen permission to do so, subject
+to the follow conditions:
+
+1. Modification is only allowed for editing the column names to match the user's 
+input file.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
