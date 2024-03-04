@@ -58,4 +58,4 @@ As mentioned in the "Usage" section, make sure to customize the data in your Exc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under a custom License - see the [LICENSE](LICENSE) file for details.
